@@ -1,7 +1,70 @@
-.class1 {
-  width: 1000px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.class2 {
-  background-color: rebeccapurple;
+body {
+  background-color:#222222;
+  font-family: Playfair Display;
 }
+
+
+.logoimg {
+  width: 204px;
+  height: 203px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+button {
+  background-color:  #D69991;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.buttonclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttontext {
+  color: white;
+  font-size: 22px;
+}
+
+.box-wrap {
+  display: flex;
+
+}
+
+.colored1  {
+  margin-top: 90px;
+  width: 150px;  ; 
+  height: 150px;
+  background-color: #BBBBBB;
+}
+.colored {
+  margin-top: 70px;
+  margin-bottom: 80px;
+  width: 150px;  ; 
+  height: 150px;
+  background-color:#AAAAAA; 
+}
+  
+.footer-all{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+
