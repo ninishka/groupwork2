@@ -4,11 +4,19 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   background-color:#222222;
-  font-family: Playfair Display;
 }
 
+
+
+.header-text h1{
+  color: white;
+  font-family: "playfair display";
+  font-weight: 400;
+}
 
 .logoimg {
   width: 204px;
@@ -39,14 +47,14 @@ button {
 
 .buttontext {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
+  /* font-family: "playfair display"; */
 }
 
 .box-wrap {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
 }
 
 .colored1  {
@@ -63,11 +71,7 @@ button {
   background-color:#AAAAAA; 
 }
   
-.footer-all{
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-}
+
 
 
 /* footer */
@@ -88,7 +92,6 @@ button {
 }
 
 li {
-  font-family: Playfair Display;
   font-size: 30px;
   color: white;
   list-style: none;
@@ -110,8 +113,12 @@ li {
   line-height: 10px;
 }
 .box-input > h6 {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   color: #888888;
+}
+.icon {
+  width: 32px;
+  height: 32px;
 }
 .box-icons {
   display: flex;
@@ -122,9 +129,28 @@ li {
 }
 .box-icons > h1 {
   color: white;
-  font-family: Playfair Display;
 }
 .box-icons > h6 {
-  font-family: Montserrat;
   color: #888888;
 }
+
+
+.white-font {
+  color: white;
+  font-family: "playfair display";
+}
+
+.line-bottom {
+  border-bottom: 1px solid rgba(255,255,255,.25);
+  padding-bottom: 34px;
+  margin-right: 54px;
+  margin-left: 54px;
+}
+
+.text-bottom {
+  text-align: center;
+  color: #666666;
+  /* font-family: "Zapfino"; */
+}
+
+
