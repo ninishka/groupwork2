@@ -18,10 +18,7 @@ body {
   font-weight: 400;
 }
 
-.logoimg {
-  width: 204px;
-  height: 203px;
-}
+
 
 .header {
   display: flex;
@@ -32,11 +29,14 @@ body {
   text-align: center;
 }
 
-button {
-  background-color:  #D69991;
+.contact-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #D69991;
   width: 200px;
-  height: 50px;
-  margin-top: 30px;
+  height: 70px;
+  cursor: pointer;
 }
 
 .buttonclass {
@@ -47,8 +47,9 @@ button {
 
 .buttontext {
   color: white;
-  font-size: 20px;
-  font-family: playfair display;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .box-wrap {
