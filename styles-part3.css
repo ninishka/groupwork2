@@ -96,6 +96,12 @@ li {
   color: white;
   list-style: none;
 }
+li > a {
+  font-family: Playfair Display;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
 .box-input {
   display: flex;
   flex-direction: column;
