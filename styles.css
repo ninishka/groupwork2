@@ -1,10 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Playfair Display";
-  }
-  li {
-    list-style: none;
-    text-decoration: none;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: initial;
+}
+.header-wrapper-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 1400px;
+  max-height: 100px;
+  margin: 0 auto;
+  font-family: "playfair display";
+}
+.navigation-box{
+  max-width: 600px;
+  height: 100px;
+  gap: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+li{
+  color: #888888;
+}
+.icon-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  max-height: 100px;
+  font-size: 25px;
+  color: #888888;
+  margin-left: 150px;
+}
+.icon-image{
+  scale: 0.8;
+}
+.page-1{
+  width: 100%;
+  max-height: 1100px;
+  font-family: "playfair display";
+}
+.page-1-container{
+  max-width: 1400px;
+  max-height: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-1-box-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-width: 1400px;
+  height: 350px;
+  background-color: grey;
+  color: white;
+  gap: 20px;
+}
+.box-1-span-1{
+  font-size: 60px;
+  text-align: center;
+}
+.box-1-span-2{
+  font-size: 25px;
+  text-align: center;
+  word-spacing: 15px;
+}
+.page-1-wrapper-2{
+  max-width: 1400px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wrapper-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wrapper-2-box{
+  width: 670px;
+  height: 340px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  gap: 20px;
+}
+#underline{
+  scale: 2;
+}

@@ -1,54 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="styles.css">
-  <title>part-1</title>
+  <title>First Page</title>
 </head>
 <body>
+
   <header>
-<nav>
-  <ul class="header-nav-box">
-   <li><a href="index.html">Contact</a></li>
-    <li><a href="index.html">News</a></li>
-    <li><a href="index.html">Follow me</a></li>
-  </ul>
-  <div class="header-wrapper-box">
-    <div class="logos">
-    <img src="images/fb.png" alt="logo-1" class="facebook-logo">
-  <img src="images/twitter.png" alt="logo-2" class="twitter-logo">
-  <img src="images/insta.png" alt="logo-3" class="instagram-logo">
-</div>
-</nav>
+      <div class="header-wrapper-container">
+          <nav>
+              <ul class="navigation-box">
+                  <a href=""> <li>Work</li> </a>
+                  <a href=""> <li>About</li> </a>
+                  <a href=""> <li>Contact</li> </a>
+                  <a href=""> <li>News</li> </a>
+              </ul>
+          </nav>
+          <div class="icon-box">
+              <span>Follow me</span>
+              <a href="index.html">
+                  <img src="images/fb.png" alt="Facebook" class="icon">
+              </a>
+              <a href="index.html">
+                  <img src="images/insta.png" alt="Instagram" class="icon">
+              </a>
+              <a href="index.html">
+                  <img src="images/twitter.png" alt="twitter" class="icon">
+              </a>
+          </div>
+      </div>
   </header>
-  <div>
-  <div class="wrapper-box">
-    <img src="images/first-image.jpg" alt="first-image"class="main-image">
-    <span class="main-image-text-1">Brilliant Measures</span>
-    <span class="main-image-text-2">My Work</span>
-  </div>
-  <img src="images/pink-line.png" alt="pink-line" class="pink-line">
-  <div class="box-1">
-    <img src="images/couple-1.jpg" alt="couple-1" class="couple-1">
-    <span class="couple-1-image-text-1">Maya & Harvey</span>
-    <span class="couple-1-image-text-2">Married JAN 2019</span>
-  </div>
-  <div class="box-2">
-    <img src="images/couple-2.webp" alt="couple-2" class="couple-2">
-    <span class="couple-2-image-text-1">Bryana & Steve</span>
-    <span class="couple-2-image-text-2">Married SEP 2018</span>
-  </div>
-  <div class="box-3">
-    <img src="images/couple-3.webp" alt="couple-3" class="couple-3">
-    <span class="couple-3-image-text-1">Laura & Chris</span>
-    <span class="couple-3-image-text-2">Married DEC 2017</span>
-  </div>
-  <div class="box-4">
-    <img src="images/couple-4.webp" alt="couple-4" class="couple-4">
-    <span class="couple-4-image-text-1">Ronie & Ashley</span>
-    <span class="couple-4-image-text-2">Married MAR 2017</span>
-  </div>
+  <main>
+      <section class="page-1">
+          <div class="page-1-container">
+              <div class="page-1-box-1">
+                  <span class="box-1-span-1">Brilliant Measures</span>
+                  <span class="box-1-span-2"> - MY WORK - </span>
+              </div>
+              <div class="page-1-wrapper-2">
+                  <div class="wrapper-child">
+                      <div class="wrapper-2-box">
+                          <span class="box-1-span-1">Maya & Harvey</span>
+                          <span class="box-1-span-2"> MARRIED JAN 2019</span>
+                          <span class="box-1-span-2" id="underline">_</span>
+                      </div>
+                      <div class="wrapper-2-box">
+                          <span class="box-1-span-1">Bryana & Steve</span>
+                          <span class="box-1-span-2"> MARRIED SEP 2018</span>
+                          <span class="box-1-span-2" id="underline">_</span>
+                      </div>
+                  </div>
+                  
+                      <div class="wrapper-2-box">
+                          <span class="box-1-span-1">Laura & Chris</span>
+                          <span class="box-1-span-2"> MARRIED DEC 2017</span>
+                          <span class="box-1-span-2" id="underline">_</span>
+                      </div>
+                      <div class="wrapper-2-box">
+                          <span class="box-1-span-1">Ronie & Ashley</span>
+                          <span class="box-1-span-2"> MARRIED MAR 2017</span>
+                          <span class="box-1-span-2" id="underline">_</span >
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </main>  
 </body>
 </html>
