@@ -14,7 +14,7 @@ body {
 
 .header-text h1{
   color: white;
-  font-family: "playfair display";
+  font-family: playfair display;
   font-weight: 400;
 }
 
@@ -48,7 +48,7 @@ button {
 .buttontext {
   color: white;
   font-size: 20px;
-  /* font-family: "playfair display"; */
+  font-family: playfair display;
 }
 
 .box-wrap {
@@ -95,6 +95,8 @@ li {
   font-size: 30px;
   color: white;
   list-style: none;
+  font-family: playfair display;
+
 }
 .box-input {
   display: flex;
@@ -113,7 +115,7 @@ li {
   line-height: 10px;
 }
 .box-input > h6 {
-  /* font-family: Montserrat; */
+  font-family: Montserrat;
   color: #888888;
 }
 .icon {
@@ -137,7 +139,7 @@ li {
 
 .white-font {
   color: white;
-  font-family: "playfair display";
+  font-family: playfair display;
 }
 
 .line-bottom {
