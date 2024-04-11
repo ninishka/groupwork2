@@ -43,18 +43,15 @@ li{
   color: #888888;
   margin-left: 150px;
 }
-.icon{
+.icon-image{
   scale: 0.8;
-  gap: 5px;
 }
 .page-1{
-  width: 100%;
   max-height: 1100px;
   font-family: "playfair display";
-
 }
-
 .page-1-container{
+overflow-x: hidden;
   max-width: 1400px;
   max-height: 1100px;
   margin: 0 auto;
@@ -93,6 +90,7 @@ li{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
 }
 .wrapper-2-box{
   width: 670px;
